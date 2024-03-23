@@ -1,0 +1,42 @@
+1. Install a compiler (g++ / gcc)
+2. Code Editor / IDE
+3. Program : Square Root of a no
+// For Pattern Problems : Do not hardcode
+4. Pattern
+
+     1
+    232
+   34543
+  4567654
+ 567898765
+
+5. Pattern
+
+*******
+ *****
+  ***
+   *
+   *
+  ***
+ *****
+*******
+
+
+6. Pattern
+
+*****
+ * *
+  *
+  *
+ * *
+*****
+
+7. Pattern
+
+*****
+ *  *
+  * *
+   **
+    *
+
+

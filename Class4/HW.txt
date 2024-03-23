@@ -1,0 +1,22 @@
+1. Write a program to count number of words,  characters and lines in the given input. Input is  terminated by a ‘$’ 
+
+2. A person wants to go from origin to a particular  location, he can move in only 4 directions(i.e  East, West, North, South) but his friend gave him  a long route, help a person to find minimum  Moves so that he can reach to the destination. 
+
+Input – NESNWES  Output – E 
+
+You need to print the lexicographically sorted  string. Assume the string will have only ‘E’ ‘N’ ‘S’ ‘W’ characters. 
+E.g – SSSNEEEW 
+output – EESS 
+
+3. Given an integer n, count number of bits s  e  t   ( number of bits which are 1) in it. 
+
+4. Given N, print following pattern (FOR N = 5) 
+ABCDEEDCBA 
+ABCDDCBA   
+ABCCBA   
+ABBA 
+AA 
+
+5. Reverse a no 
+
+ 

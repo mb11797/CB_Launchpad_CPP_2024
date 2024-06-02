@@ -38,22 +38,23 @@ void printBoard(vector<vector<char> > board){
 	return;
 }
 
-bool nQueens(vector<vector<char> > board, int i){
+void nQueens(vector<vector<char> > board, int i, int &count){
 	int n = board.size();
 	if(i == n){
 		printBoard(board);
-		return true;
+		count++;
+		return;
 	}
 
 	
 	for(int col=0; col<n; col++){
 		if(isConfigPossible(board, i, col)){
 			board[i][col] = 'Q';
-			nQueens(board, i+1);
+			nQueens(board, i+1, count);
 			board[i][col] = '.';	// Backtracking
 		}
 	}
-	return false;
+	return;
 }
 
 int main(){
@@ -74,7 +75,10 @@ int main(){
 	cout<<"Chess Board:"<<endl;
 	printBoard(board);
 
-	nQueens(board, 0);
+	int count = 0;
+	nQueens(board, 0, count);
+	cout<<endl<<endl;
+	cout<<"Total: "<<count<<endl;
 
 	return 0;
 }

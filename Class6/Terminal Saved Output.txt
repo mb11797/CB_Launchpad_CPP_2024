@@ -1,0 +1,42 @@
+sh-3.2# ./search_using_recursion 
+Mil gaya 7
+4
+sh-3.2# 
+sh-3.2# g++ search_using_recursion.cpp -o search_using_recursion
+search_using_recursion.cpp:39:2: error: no matching function for call to 'findLastOccurenceInArrRec'
+        findLastOccurenceInArrRec(arr, n, elmtToSearch, curIdx+1);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~
+search_using_recursion.cpp:30:6: note: candidate function not viable: requires 5 arguments, but 4 were provided
+void findLastOccurenceInArrRec(int arr[], int n, int elmtToSearch, int curIdx, int &lastOcc){
+     ^
+1 error generated.
+sh-3.2# 
+sh-3.2# 
+sh-3.2# 
+sh-3.2# g++ search_using_recursion.cpp -o search_using_recursion
+sh-3.2# ./search_using_recursion 
+Mil gaya 7
+4
+4
+sh-3.2# g++ search_using_recursion.cpp -o search_using_recursion
+sh-3.2# ./search_using_recursion 
+Mil gaya 7
+4
+6
+sh-3.2# 
+sh-3.2# 
+sh-3.2# g++ search_using_recursion.cpp -o search_using_recursion
+sh-3.2# 
+sh-3.2# 
+sh-3.2# ./search_using_recursion 
+Mil gaya 7
+4
+6
+3 6 
+sh-3.2# g++ search_using_recursion.cpp -o search_using_recursion
+sh-3.2# ./search_using_recursion 
+Mil gaya 7
+4
+6
+3 5 6 
+sh-3.2# 

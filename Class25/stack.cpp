@@ -37,7 +37,7 @@ public:
 
 int main(){
 
-	Stack*stk = new Stack();
+	Stack*stk = new Stack();		// vec -> empty
 	stk->push(1);
 	stk->push(2);
 	stk->push(3);
@@ -56,6 +56,8 @@ int main(){
 	}
 	cout<<endl;
 
+
+	// stk = new Stack();
 
 	return 0;
 }

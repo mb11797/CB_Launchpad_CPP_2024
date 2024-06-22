@@ -2,11 +2,12 @@
 #include<vector>
 using namespace std;
 
-template<typename T, typename V>
+// template<typename T, typename V>
+template<typename T>
 class Stack{
 private:
 	vector<T> vec;
-	vector<V> arr;		// Not getting used right now, just for Demo
+	// vector<V> arr;		// Not getting used right now, just for Demo
 
 public:
 	void push(T el){
@@ -34,7 +35,7 @@ public:
 
 int main(){
 
-	Stack<char, int> stk;
+	Stack<char> stk;
 	stk.push('a');
 	stk.push('b');
 	stk.push('c');
